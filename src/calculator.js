@@ -28,7 +28,7 @@ try {
 
   if (args.length === 3) {
     const [p1, p2, p3] = args;
-    const opNames = ['add','subtract','sub','multiply','mul','divide','div','+','-','*','/','x','×','÷'];
+    const opNames = ['add','subtract','sub','multiply','mul','divide','div','+','-','*','/','x','×','÷','mod','modulo','%','pow','power','^','**'];
     if (opNames.includes(p1.toLowerCase())) {
       // form: operator a b
       result = compute(p2, p1, p3);
